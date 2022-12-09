@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-09T14:32:02 IST" name="Admin" finished-at="2022-12-09T14:32:28 IST" duration-ms="26005">
+    <groups>
+    </groups>
+    <test started-at="2022-12-09T14:32:02 IST" name="TestCase.Uploadimage" finished-at="2022-12-09T14:32:28 IST" duration-ms="26005">
+      <class name="TestCase.Uploadimage">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestCase.Uploadimage@5276d6ee]" started-at="2022-12-09T14:32:02 IST" name="beforeClass" finished-at="2022-12-09T14:32:02 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCase.Uploadimage@5276d6ee]" started-at="2022-12-09T14:32:02 IST" name="setUp" finished-at="2022-12-09T14:32:20 IST" duration-ms="18170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://products.pisystindia.com/Ecommerce/admin/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ValidData()[pri:1, instance:TestCase.Uploadimage@5276d6ee]" started-at="2022-12-09T14:32:20 IST" name="ValidData" finished-at="2022-12-09T14:32:28 IST" duration-ms="7755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidData -->
+      </class> <!-- TestCase.Uploadimage -->
+    </test> <!-- TestCase.Uploadimage -->
+  </suite> <!-- Admin -->
+</testng-results>
